@@ -51,12 +51,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 transform translate-z-0"
+      className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-100 transform translate-z-0"
       style={{
         transform: "translateZ(0)",
         WebkitTransform: "translateZ(0)",
-        backdropFilter: "blur(8px)",
-        WebkitBackdropFilter: "blur(8px)",
         willChange: "transform",
       }}
     >
@@ -64,18 +62,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 min-w-0">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
-            <button
-              onClick={() => scrollToSection("#")}
-              className="flex items-center space-x-2 sm:space-x-3 group min-w-0 focus:outline-none focus:ring-2 focus:ring-bmo-blue focus:ring-offset-2 rounded-lg p-1"
-            >
-              <div className="transition-opacity duration-300 group-hover:opacity-80 flex-shrink-0">
+            <div className="flex items-center space-x-2 sm:space-x-3 min-w-0">
+              <div className="flex-shrink-0">
                 <BMOLogo size="sm" />
               </div>
-
               <span className="text-sm sm:text-base font-medium text-gray-900 truncate">
                 S25 Work Term
               </span>
-            </button>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

@@ -108,7 +108,7 @@ const JobDescription = () => {
   ];
 
   return (
-    <section id="job-description" className="section-padding bg-white">
+    <section id="job-description" className="section-padding bg-gray-50">
       <div className="max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${
@@ -200,7 +200,7 @@ const JobDescription = () => {
                         {category === 'Web Development' && <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-b-[8px] border-l-transparent border-r-transparent border-b-bmo-blue"></div>}
                         {category === 'Analytics' && <div className="w-3 h-3 bg-bmo-blue rounded-full"></div>}
                         {category === 'Research' && <div className="w-2.5 h-2.5 bg-bmo-blue transform rotate-45"></div>}
-                        {category === 'Emerging Tech' && <div className="w-3 h-3 bg-bmo-blue" style={{clipPath: 'polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)'}}></div>}
+                        {category === 'Emerging Tech' && <div className="w-3 h-3 bg-bmo-red" style={{clipPath: 'polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)'}}></div>}
                       </div>
                       <h4 className="text-base sm:text-lg font-semibold text-gray-900">{category}</h4>
                     </div>
@@ -208,7 +208,11 @@ const JobDescription = () => {
                       {skills.map((skill, skillIndex) => (
                         <span 
                           key={skillIndex} 
-                          className="px-3 py-1.5 bg-bmo-blue/10 text-bmo-blue rounded-full text-xs sm:text-sm font-medium"
+                          className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium ${
+                            category === 'Emerging Tech' 
+                              ? 'bg-bmo-red/10 text-bmo-red' 
+                              : 'bg-bmo-blue/10 text-bmo-blue'
+                          }`}
                         >
                           {skill.name}
                         </span>

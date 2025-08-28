@@ -309,7 +309,7 @@ const Goals = () => {
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <span className="w-3 h-3 bg-bmo-blue rounded-full mt-2 mr-4 flex-shrink-0"></span>
+                  <span className="w-3 h-3 bg-bmo-red rounded-full mt-2 mr-4 flex-shrink-0"></span>
                   <p className="text-gray-600">
                     Presenting to senior leadership built confidence and
                     demonstrated the value of thorough research methodology.
@@ -325,7 +325,7 @@ const Goals = () => {
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <span className="w-3 h-3 bg-bmo-blue rounded-full mt-2 mr-4 flex-shrink-0"></span>
+                  <span className="w-3 h-3 bg-bmo-red rounded-full mt-2 mr-4 flex-shrink-0"></span>
                   <p className="text-gray-600">
                     Understanding organizational structure enhanced stakeholder
                     engagement and cross-functional collaboration.

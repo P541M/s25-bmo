@@ -29,7 +29,7 @@ const Introduction = () => {
   }, []);
 
   return (
-    <section id="introduction" className="section-padding bg-white">
+    <section id="introduction" className="section-padding bg-gray-50">
       <div className="max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Content Side */}
@@ -71,7 +71,7 @@ const Introduction = () => {
                   IdeaVerse development
                 </span>{" "}
                 and
-                <span className="font-semibold text-bmo-blue">
+                <span className="font-semibold text-bmo-red">
                   {" "}
                   emerging technology research
                 </span>

@@ -209,7 +209,7 @@ const Acknowledgements = () => {
               <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8 items-center">
                 <div className="text-center lg:text-left">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-50 rounded-full flex items-center justify-center mx-auto lg:mx-0 mb-4">
-                    <span className="text-bmo-blue font-semibold text-lg sm:text-xl">
+                    <span className="text-bmo-red font-semibold text-lg sm:text-xl">
                       EC
                     </span>
                   </div>

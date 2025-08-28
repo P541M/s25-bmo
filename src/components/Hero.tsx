@@ -11,7 +11,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[calc(100vh-4rem)] pt-16 flex items-center justify-center bg-white">
+    <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center bg-white">
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8 text-center w-full">
         {/* Main Title */}
@@ -85,7 +85,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className="bg-white border border-gray-200 rounded-xl p-4 text-center min-w-[200px] flex-shrink-0 snap-center">
-                <div className="text-2xl sm:text-3xl font-semibold text-bmo-green mb-2">
+                <div className="text-2xl sm:text-3xl font-semibold text-bmo-blue mb-2">
                   ∞
                 </div>
                 <div className="text-gray-600 text-xs sm:text-sm">
@@ -110,7 +110,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-6 text-center">
-              <div className="text-3xl font-semibold text-bmo-green mb-2">
+              <div className="text-3xl font-semibold text-bmo-blue mb-2">
                 ∞
               </div>
               <div className="text-gray-600 text-sm">
