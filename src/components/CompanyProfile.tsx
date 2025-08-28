@@ -51,7 +51,7 @@ const CompanyProfile = () => {
     },
     {
       title: 'Technology Excellence',
-      description: 'Investing heavily in AI, machine learning, and cloud technologies to enhance customer experience.',
+      description: 'Investing heavily in AI, machine learning, enterprise tooling, and cloud technologies to drive innovation.',
       icon: '🚀',
       color: 'from-bmo-red to-red-600'
     },
@@ -106,9 +106,11 @@ const CompanyProfile = () => {
               </p>
 
               <p>
-                As a Technology Research Analyst, I had the unique opportunity to contribute to BMO&apos;s 
-                innovation ecosystem, working alongside brilliant minds who are shaping the future 
-                of financial technology and services.
+                Guided by their purpose to <span className="font-semibold text-bmo-blue">"Boldly Grow the Good 
+                in business and life,"</span> BMO creates lasting, positive change for customers, communities, 
+                and employees. As a Technology Research Analyst, I had the unique opportunity to contribute to 
+                BMO&apos;s innovation ecosystem, working on both the IdeaVerse platform transformation and 
+                cutting-edge AI research initiatives.
               </p>
             </div>
 

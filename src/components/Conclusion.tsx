@@ -31,41 +31,41 @@ const Conclusion = () => {
   const achievements = [
     {
       metric: "16 Weeks",
-      description: "of Innovation & Learning",
+      description: "of Platform Development & Research",
       icon: "📅"
     },
     {
-      metric: "5+ Projects",
-      description: "Research Initiatives Completed",
-      icon: "🔬"
+      metric: "15+ Projects",
+      description: "IdeaVerse & Research Initiatives",
+      icon: "🚀"
     },
     {
       metric: "100%",
-      description: "Goal Achievement Rate",
+      description: "Learning Goal Achievement Rate",
       icon: "🎯"
     },
     {
-      metric: "$2M+",
-      description: "Value of Influenced Decisions",
-      icon: "💰"
+      metric: "C-Suite",
+      description: "Executive Presentations Delivered",
+      icon: "💼"
     }
   ];
 
   const futureGoals = [
     {
-      title: "Advanced Technology Leadership",
-      description: "Pursue roles that combine deep technical expertise with strategic business leadership in fintech.",
-      icon: "🚀"
+      title: "Enterprise Technology Expertise",
+      description: "Build upon my Microsoft 365 and Power Platform skills to become a leader in enterprise technology solutions.",
+      icon: "⚙️"
     },
     {
-      title: "Continued Learning",
-      description: "Stay at the forefront of emerging technologies through continuous professional development.",
-      icon: "📚"
+      title: "AI Research & Implementation",
+      description: "Continue exploring agentic AI and emerging technologies to drive innovation in financial services.",
+      icon: "🤖"
     },
     {
-      title: "Industry Impact",
-      description: "Contribute to transformative innovations that shape the future of financial services.",
-      icon: "🌟"
+      title: "Strategic Technology Leadership",
+      description: "Leverage my research and presentation experience to influence technology decisions in future roles.",
+      icon: "🎯"
     }
   ];
 
@@ -113,24 +113,26 @@ const Conclusion = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Learnings & Reflections</h3>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                My experience as a Technology Research Analyst at BMO has been nothing short of transformational. 
-                Working at the intersection of <span className="font-semibold text-bmo-blue">cutting-edge technology</span> and 
-                <span className="font-semibold text-bmo-red"> financial innovation</span> has provided me with 
-                invaluable insights into how emerging technologies are reshaping the banking industry.
+                My experience as a Technology Research Analyst at BMO has been transformational, providing hands-on 
+                expertise in both <span className="font-semibold text-bmo-blue">enterprise platform development</span> and 
+                <span className="font-semibold text-bmo-red"> cutting-edge AI research</span>. Through the IdeaVerse 
+                platform transformation and comprehensive agentic AI studies, I gained invaluable experience in 
+                translating complex technical concepts into strategic business solutions.
               </p>
 
               <p>
-                The opportunity to contribute to strategic research initiatives worth millions of dollars has 
-                not only enhanced my technical capabilities but also developed my business acumen and strategic 
-                thinking skills. I&apos;ve learned that successful technology research requires both deep technical 
-                understanding and the ability to translate complex concepts into actionable business insights.
+                The opportunity to master BMO&apos;s enterprise tooling ecosystem—including Microsoft 365, Power Apps, 
+                and Power Automate—while simultaneously conducting research that informed executive decision-making has 
+                enhanced both my technical capabilities and strategic thinking skills. Presenting findings to the 
+                Chief Architect & Innovation Officer demonstrated the real-world impact of thorough research methodology.
               </p>
 
               <p>
-                Perhaps most importantly, this experience has reinforced my passion for 
-                <span className="font-semibold text-bmo-dark-blue"> financial technology</span> and confirmed my 
-                desire to pursue a career at the forefront of banking innovation. The mentorship I received 
-                and the professional relationships I built will continue to guide my future career decisions.
+                Perhaps most importantly, this experience reinforced my adaptability and resilience when managing 
+                competing priorities, from time-sensitive hackathon tasks to comprehensive multilingual platform 
+                implementations. The combination of <span className="font-semibold text-bmo-dark-blue">enterprise tooling mastery</span> and 
+                <span className="font-semibold text-bmo-blue"> strategic research capabilities</span> has prepared me 
+                to contribute meaningfully to technology-driven financial services innovation.
               </p>
             </div>
           </div>
@@ -165,9 +167,10 @@ const Conclusion = () => {
           <div className="bg-gradient-to-br from-bmo-blue to-bmo-dark-blue rounded-3xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4">A Foundation for the Future</h3>
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-              This work term at BMO has provided me with a solid foundation in financial technology research, 
-              strategic analysis, and professional development. I&apos;m excited to apply these skills and insights 
-              as I continue my academic journey and pursue opportunities in the dynamic world of fintech innovation.
+              This work term at BMO has provided me with a comprehensive foundation in enterprise technology solutions, 
+              strategic research methodologies, and executive-level communication. From mastering Microsoft 365 
+              ecosystems to presenting AI research to C-Suite leadership, I&apos;m excited to apply these skills as I 
+              continue my academic journey and pursue opportunities at the intersection of technology and business innovation.
             </p>
             <div className="mt-8 inline-flex items-center px-6 py-3 bg-white/20 rounded-2xl font-semibold">
               <span className="mr-2">🚀</span>

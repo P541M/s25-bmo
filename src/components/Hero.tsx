@@ -52,8 +52,8 @@ const Hero = () => {
               <div className="text-gray-600">Weeks of Innovation</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg card-hover">
-              <div className="text-3xl font-bold text-bmo-red mb-2">5+</div>
-              <div className="text-gray-600">Research Projects</div>
+              <div className="text-3xl font-bold text-bmo-red mb-2">15+</div>
+              <div className="text-gray-600">Research & Development Projects</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg card-hover">
               <div className="text-3xl font-bold text-bmo-green mb-2">∞</div>

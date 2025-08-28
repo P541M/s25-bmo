@@ -52,33 +52,35 @@ const Introduction = () => {
                 From May to August 2025, I had the incredible opportunity to work as a 
                 <span className="font-semibold text-bmo-blue"> Technology Research Analyst</span> at 
                 BMO Financial Group, one of Canada&apos;s leading financial institutions. This role placed me 
-                at the intersection of cutting-edge technology and financial services, where innovation 
-                drives the future of banking.
+                at the intersection of cutting-edge technology research and practical innovation implementation, 
+                contributing to both BMO&apos;s internal platforms and strategic technology insights.
               </p>
 
               <p>
-                Throughout this 16-week journey, I delved deep into emerging technologies, 
-                analyzed market trends, and contributed to research initiatives that could shape 
-                BMO&apos;s technological roadmap. This report chronicles my experiences, learnings, 
-                and contributions during this transformative work term.
+                My work centered around two major areas: <span className="font-semibold text-bmo-blue">IdeaVerse development</span> and 
+                <span className="font-semibold text-bmo-blue"> emerging technology research</span>. Through IdeaVerse, I transformed 
+                static SharePoint sites into dynamic, multilingual platforms with responsive design and interactive widgets. 
+                Simultaneously, I conducted comprehensive research on agentic AI, humanoids, and emerging tech trends, 
+                ultimately presenting my findings to BMO&apos;s Chief Architect & Innovation Officer.
               </p>
 
               <p>
-                The insights I&apos;ve gained and the projects I&apos;ve worked on have not only expanded 
-                my technical expertise but also provided me with a comprehensive understanding 
-                of how technology can revolutionize the financial services industry.
+                This experience provided me with hands-on expertise in enterprise tooling ecosystems, advanced research 
+                methodologies, and strategic technology analysis. From managing time-sensitive hackathon tasks to 
+                implementing French translations across entire websites, every project enhanced both my technical 
+                capabilities and business acumen in the financial technology sector.
               </p>
             </div>
 
             {/* Key Highlights */}
             <div className="mt-10 grid grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl">
-                <div className="text-2xl font-bold text-blue-600 mb-2">16</div>
-                <div className="text-sm text-gray-600">Weeks of Deep Research</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">2</div>
+                <div className="text-sm text-gray-600">Major Platform Transformations</div>
               </div>
               <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-6 rounded-2xl">
-                <div className="text-2xl font-bold text-teal-600 mb-2">∞</div>
-                <div className="text-sm text-gray-600">Insights Discovered</div>
+                <div className="text-2xl font-bold text-teal-600 mb-2">C-Suite</div>
+                <div className="text-sm text-gray-600">Executive Presentations</div>
               </div>
             </div>
           </div>
@@ -103,19 +105,19 @@ const Introduction = () => {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-400 rounded-full mr-3"></div>
-                    <span>Emerging Technology Analysis</span>
+                    <span>IdeaVerse Platform Development</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-yellow-400 rounded-full mr-3"></div>
-                    <span>Market Research & Insights</span>
+                    <span>Agentic AI Research & Analysis</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-purple-400 rounded-full mr-3"></div>
-                    <span>Strategic Technology Planning</span>
+                    <span>Enterprise Tooling Ecosystem</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-pink-400 rounded-full mr-3"></div>
-                    <span>Innovation Research</span>
+                    <span>Multilingual Web Solutions</span>
                   </div>
                 </div>
               </div>
@@ -143,24 +145,24 @@ const Introduction = () => {
               <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
                 <span className="text-blue-600 text-xl">🏢</span>
               </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">BMO Overview</h4>
-              <p className="text-gray-600">Learn about BMO&apos;s innovation culture and technology landscape</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2">BMO Innovation</h4>
+              <p className="text-gray-600">Explore Canada&apos;s 4th largest bank&apos;s technology transformation journey</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-6 card-hover">
               <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
-                <span className="text-teal-600 text-xl">🔬</span>
+                <span className="text-teal-600 text-xl">💻</span>
               </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Research Projects</h4>
-              <p className="text-gray-600">Explore the cutting-edge research and analysis I conducted</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2">IdeaVerse & Research</h4>
+              <p className="text-gray-600">Discover the platform transformations and AI research initiatives</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-6 card-hover">
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
                 <span className="text-green-600 text-xl">🎯</span>
               </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Goals & Growth</h4>
-              <p className="text-gray-600">Discover the skills I developed and objectives I achieved</p>
+              <h4 className="text-lg font-semibold text-gray-900 mb-2">Learning Outcomes</h4>
+              <p className="text-gray-600">Explore my professional development through BMO&apos;s enterprise ecosystem</p>
             </div>
           </div>
         </div>

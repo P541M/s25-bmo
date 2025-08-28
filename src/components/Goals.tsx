@@ -38,103 +38,103 @@ const Goals = () => {
 
   const goals = [
     {
-      title: "Master Financial Technology Research Methodologies",
-      description: "Develop comprehensive skills in financial technology research, including market analysis techniques, competitive intelligence gathering, and technology trend forecasting to become a proficient analyst in the fintech space.",
+      title: "Gain Proficiency in BMO's Enterprise Tooling Ecosystem (Microsoft 365, Power Apps, Power Automate)",
+      description: "Master BMO's enterprise tooling ecosystem including Microsoft 365, Power Apps, and Power Automate to design and deploy automated workflows that streamline internal processes and reduce manual steps.",
       challenges: [
-        "Learning complex financial instruments and their technological applications",
-        "Mastering various research databases and analytical tools",
-        "Understanding the intersection between technology and regulatory compliance"
+        "Learning complex enterprise platforms with limited prior experience",
+        "Understanding workflow automation principles and business logic",
+        "Integrating multiple Microsoft 365 tools into cohesive solutions"
       ],
       skills: [
-        "Financial market analysis",
-        "Technology trend forecasting",
-        "Competitive intelligence research",
-        "Data analysis and visualization",
-        "Financial modeling"
+        "Microsoft 365 suite proficiency",
+        "Power Apps application development",
+        "Power Automate workflow creation",
+        "SharePoint site management",
+        "Enterprise system integration"
       ],
-      results: "Successfully conducted 5+ comprehensive research projects, becoming proficient in Bloomberg Terminal, Refinitiv, and various analytical tools. Developed a systematic approach to technology trend analysis that was adopted by the team for future research initiatives.",
+      results: "Successfully deployed two automated workflows that streamlined internal processes and reduced manual effort. Received positive feedback from peers and manager on usability and reliability. Demonstrated measurable reduction in manual steps through enterprise tooling implementation.",
       status: "Achieved",
-      icon: "🔬",
+      icon: "⚙️",
       color: "from-bmo-blue to-bmo-dark-blue"
     },
     {
-      title: "Build Strong Professional Networks in Fintech",
-      description: "Establish meaningful connections with professionals across BMO's technology and innovation teams, as well as external fintech industry contacts to build a robust professional network for future career growth.",
+      title: "Master Diverse Research Methodologies to Inform Technology Decisions",
+      description: "Develop comprehensive research skills by applying both qualitative (stakeholder interviews, focus groups) and quantitative (survey, data analysis) methods to inform technology decisions and strategic insights.",
       challenges: [
-        "Overcoming initial hesitation to reach out to senior professionals",
-        "Finding common ground for meaningful conversations",
-        "Balancing networking activities with core work responsibilities"
+        "Learning to balance qualitative and quantitative research approaches",
+        "Synthesizing complex research findings into actionable recommendations",
+        "Presenting technical research to diverse stakeholder audiences"
       ],
       skills: [
-        "Professional networking",
-        "Communication and relationship building",
-        "Industry knowledge application",
-        "Cross-functional collaboration",
-        "Professional presence"
+        "Qualitative research methods",
+        "Quantitative data analysis",
+        "Research methodology design",
+        "Strategic technology assessment",
+        "Stakeholder interview techniques"
       ],
-      results: "Built relationships with 15+ professionals across different departments, participated in 3 industry networking events, and established mentorship relationships with senior analysts. These connections provided valuable insights and potential future opportunities.",
+      results: "Applied diverse research methodologies in analyzing agentic AI capabilities, successfully incorporated findings into published internal reports, and presented research outcomes to BMO's Chief Architect & Innovation Officer. Enhanced decision-making with balanced qualitative and quantitative insights.",
       status: "Exceeded",
-      icon: "🤝",
+      icon: "🔍",
       color: "from-green-500 to-green-600"
     },
     {
-      title: "Develop Advanced Data Analysis and Visualization Skills",
-      description: "Enhance technical capabilities in data analysis, statistical modeling, and data visualization to provide more impactful insights and recommendations for BMO's strategic technology decisions.",
+      title: "Build Clear 'Big-Picture' Map of BMO's Organizational Structure and Decision-Making Lines",
+      description: "Develop comprehensive understanding of BMO's organizational structure, governance processes, and decision-making hierarchies to navigate the enterprise effectively and identify key stakeholders for strategic initiatives.",
       challenges: [
-        "Learning advanced statistical analysis techniques",
-        "Mastering professional-grade visualization tools",
-        "Applying statistical concepts to real-world financial data"
+        "Understanding complex organizational hierarchies in a large financial institution",
+        "Mapping relationships between different Lines of Business (LOBs) and Areas",
+        "Learning formal and informal decision-making processes"
       ],
       skills: [
-        "Python programming for data analysis",
-        "Advanced Excel and statistical modeling",
-        "Tableau and Power BI proficiency",
-        "SQL database querying",
-        "Statistical analysis and interpretation"
+        "Organizational analysis and mapping",
+        "Stakeholder identification and engagement",
+        "Corporate governance understanding",
+        "Cross-functional navigation",
+        "Strategic relationship building"
       ],
-      results: "Achieved 90% proficiency in SQL, 85% in Python, and 80% in Tableau. Created automated data analysis workflows that reduced research time by 30% and produced visually compelling reports that were well-received by stakeholders.",
+      results: "Successfully created a comprehensive organizational map validated against official company resources. Developed strong understanding of BMO's structure, enabling effective project stakeholder identification and improved cross-departmental collaboration throughout my term.",
       status: "Achieved",
-      icon: "📊",
+      icon: "🏢",
       color: "from-bmo-red to-red-600"
     },
     {
-      title: "Contribute Meaningful Strategic Insights to BMO's Innovation Pipeline",
-      description: "Move beyond basic research tasks to provide strategic recommendations and insights that could influence BMO's technology investment decisions and innovation strategies.",
+      title: "Elevate Stakeholder Communication and Presentation Skills",
+      description: "Enhance oral communication abilities by actively participating in meetings, presenting research findings to diverse audiences, and building confidence when communicating complex technical concepts to stakeholders.",
       challenges: [
-        "Developing business acumen to understand strategic implications",
-        "Learning to present complex technical concepts to non-technical stakeholders",
-        "Building confidence to share recommendations with senior leadership"
+        "Overcoming hesitation to speak up in meetings with senior leadership",
+        "Translating technical research findings into accessible presentations",
+        "Building confidence to present to C-Suite executives"
       ],
       skills: [
-        "Strategic thinking and analysis",
-        "Business communication",
-        "Presentation and storytelling",
-        "Technology-business alignment",
-        "Executive summary writing"
+        "Executive presentation skills",
+        "Technical communication",
+        "Stakeholder engagement",
+        "Public speaking confidence",
+        "Meeting participation and leadership"
       ],
-      results: "Delivered 3 strategic research reports that influenced investment decisions worth $2M+. My AI in Banking analysis was cited in executive briefings and contributed to BMO's machine learning strategy roadmap.",
+      results: "Successfully presented agentic AI research findings to BMO's Chief Architect & Innovation Officer, demonstrated increased confidence in high-stakes meetings, and received positive feedback on presentation clarity and engagement from stakeholders across multiple organizational levels.",
       status: "Exceeded",
-      icon: "💡",
+      icon: "🎤",
       color: "from-bmo-blue to-blue-600"
     },
     {
-      title: "Enhance Project Management and Time Management Skills",
-      description: "Develop robust project management capabilities to handle multiple research initiatives simultaneously while meeting deadlines and maintaining high-quality output standards.",
+      title: "Enhance Adaptability and Resilience to Navigate Shifting Priorities and Tight Deadlines",
+      description: "Develop robust adaptability skills to effectively manage changing priorities, tight deadlines, and unexpected challenges while maintaining high-quality output and supporting team objectives.",
       challenges: [
-        "Balancing multiple concurrent research projects",
-        "Managing stakeholder expectations and changing priorities",
-        "Maintaining quality standards while working under tight deadlines"
+        "Managing competing priorities during hackathon events and time-sensitive tasks",
+        "Adapting quickly to changing project requirements and stakeholder needs",
+        "Maintaining quality standards while pivoting between different work streams"
       ],
       skills: [
-        "Project planning and organization",
-        "Time management and prioritization",
-        "Stakeholder communication",
-        "Quality assurance processes",
-        "Agile work methodologies"
+        "Adaptability and flexibility",
+        "Stress management under pressure",
+        "Priority management and pivoting",
+        "Team collaboration during crises",
+        "Resilience and problem-solving"
       ],
-      results: "Successfully managed 8 concurrent research projects, maintaining a 95% on-time delivery rate. Implemented a personal project management system that improved efficiency by 25% and was shared with other team members.",
+      results: "Successfully managed time-sensitive hackathon tasks, effectively pivoted between IdeaVerse development and research projects, and maintained quality output despite shifting priorities. Documented multiple instances of successful adaptation and received positive feedback on crisis management abilities.",
       status: "Achieved",
-      icon: "⏰",
+      icon: "🔄",
       color: "from-bmo-dark-blue to-blue-700"
     }
   ];
@@ -284,21 +284,21 @@ const Goals = () => {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <span className="w-3 h-3 bg-bmo-blue rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                  <p className="text-gray-600">Setting specific, measurable goals at the beginning of the work term provided clear direction and motivation.</p>
+                  <p className="text-gray-600">Mastering enterprise tooling ecosystems provided a foundation for creating scalable, automated solutions.</p>
                 </div>
                 <div className="flex items-start">
                   <span className="w-3 h-3 bg-green-500 rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                  <p className="text-gray-600">Regular self-assessment and seeking feedback helped identify areas for improvement and celebrate achievements.</p>
+                  <p className="text-gray-600">Presenting to senior leadership built confidence and demonstrated the value of thorough research methodology.</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <span className="w-3 h-3 bg-bmo-red rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                  <p className="text-gray-600">Challenging myself beyond my comfort zone led to unexpected growth and exceeded expectations.</p>
+                  <p className="text-gray-600">Adaptability during hackathons and shifting priorities proved essential for delivering quality results.</p>
                 </div>
                 <div className="flex items-start">
                   <span className="w-3 h-3 bg-bmo-dark-blue rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                  <p className="text-gray-600">The integration of technical and business skills proved essential for success in financial technology research.</p>
+                  <p className="text-gray-600">Understanding organizational structure enhanced stakeholder engagement and cross-functional collaboration.</p>
                 </div>
               </div>
             </div>

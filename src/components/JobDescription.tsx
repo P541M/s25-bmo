@@ -31,69 +31,69 @@ const JobDescription = () => {
 
   const responsibilities = [
     {
-      title: 'Technology Trend Analysis',
-      description: 'Conducted comprehensive research on emerging technologies including AI, blockchain, quantum computing, and cloud infrastructure to identify potential opportunities for BMO.',
+      title: 'IdeaVerse Platform Transformation',
+      description: 'Converted static SharePoint sites into dynamic, interactive platforms with multilingual support, responsive design, and dynamic code widgets for enhanced user experience.',
+      icon: '🌐',
+      impact: 'High'
+    },
+    {
+      title: 'Agentic AI Research & Analysis',
+      description: 'Conducted comprehensive research on agentic AI in software development, analyzed capabilities and limitations, and presented findings to Chief Architect & Innovation Officer.',
+      icon: '🤖',
+      impact: 'High'
+    },
+    {
+      title: 'Enterprise Tooling Implementation',
+      description: 'Mastered BMO\'s enterprise ecosystem including Microsoft 365, Power Apps, and Power Automate to create automated workflows and streamline business processes.',
+      icon: '⚙️',
+      impact: 'High'
+    },
+    {
+      title: 'Emerging Technology Research',
+      description: 'Researched humanoids, intent-based AI tools, market sizing of emerging trends, and supported ongoing observation papers for strategic technology insights.',
+      icon: '🔬',
+      impact: 'Medium'
+    },
+    {
+      title: 'Data Visualization & Analysis',
+      description: 'Analyzed user engagement data from news brief emails using heatmaps and visualized month-to-month trends to optimize content strategy and reader engagement.',
       icon: '📊',
-      impact: 'High'
-    },
-    {
-      title: 'Market Research & Competitive Intelligence',
-      description: 'Analyzed fintech market trends, competitor strategies, and industry developments to provide strategic insights for technology investment decisions.',
-      icon: '🔍',
-      impact: 'High'
-    },
-    {
-      title: 'Strategic Technology Planning',
-      description: 'Collaborated with senior analysts to develop technology roadmaps and strategic recommendations for digital transformation initiatives.',
-      icon: '🎯',
       impact: 'Medium'
-    },
-    {
-      title: 'Innovation Research',
-      description: 'Explored cutting-edge technologies and their applications in financial services, contributing to BMO&apos;s innovation pipeline.',
-      icon: '💡',
-      impact: 'Medium'
-    },
-    {
-      title: 'Data Analysis & Reporting',
-      description: 'Collected, analyzed, and presented technology market data through comprehensive reports and presentations for stakeholders.',
-      icon: '📈',
-      impact: 'High'
     }
   ];
 
   const technologies = [
-    { name: 'Python', level: 85, category: 'Programming', color: 'from-bmo-blue to-bmo-dark-blue' },
-    { name: 'R', level: 75, category: 'Analytics', color: 'from-green-500 to-green-600' },
-    { name: 'SQL', level: 90, category: 'Database', color: 'from-bmo-red to-red-600' },
-    { name: 'Tableau', level: 80, category: 'Visualization', color: 'from-teal-500 to-teal-600' },
-    { name: 'Power BI', level: 70, category: 'Visualization', color: 'from-yellow-500 to-yellow-600' },
-    { name: 'Excel', level: 95, category: 'Analytics', color: 'from-green-500 to-green-600' },
-    { name: 'Bloomberg Terminal', level: 60, category: 'Financial', color: 'from-bmo-blue to-blue-600' },
-    { name: 'Refinitiv', level: 65, category: 'Financial', color: 'from-purple-500 to-purple-600' },
+    { name: 'SharePoint', level: 90, category: 'Enterprise Platform', color: 'from-bmo-blue to-bmo-dark-blue' },
+    { name: 'Power Apps', level: 85, category: 'Enterprise Platform', color: 'from-purple-500 to-purple-600' },
+    { name: 'Power Automate', level: 80, category: 'Enterprise Platform', color: 'from-blue-500 to-blue-600' },
+    { name: 'Microsoft 365', level: 95, category: 'Enterprise Platform', color: 'from-green-500 to-green-600' },
+    { name: 'HTML/CSS/JavaScript', level: 85, category: 'Web Development', color: 'from-orange-500 to-orange-600' },
+    { name: 'Data Analysis', level: 80, category: 'Analytics', color: 'from-teal-500 to-teal-600' },
+    { name: 'Research Methodologies', level: 90, category: 'Research', color: 'from-bmo-red to-red-600' },
+    { name: 'AI & Machine Learning', level: 75, category: 'Emerging Tech', color: 'from-indigo-500 to-indigo-600' },
   ];
 
   const projects = [
     {
-      title: 'AI in Banking Analysis',
-      description: 'Comprehensive study on AI applications in financial services, identifying key opportunities for automation and customer experience enhancement.',
+      title: 'IdeaVerse Platform Transformation',
+      description: 'Led the complete transformation of static SharePoint sites into dynamic, multilingual platforms. Implemented French translations website-wide, created responsive design elements, and developed interactive code widgets that adapted to all screen sizes.',
+      duration: '12 weeks',
+      impact: 'Transformed BMO\'s internal innovation platform, improving user engagement and accessibility',
+      technologies: ['SharePoint', 'HTML/CSS/JavaScript', 'Responsive Design', 'Multilingual Implementation']
+    },
+    {
+      title: 'Agentic AI in Software Development Research',
+      description: 'Conducted comprehensive research on agentic AI capabilities in software development, analyzed use cases and limitations, and prepared detailed presentations for executive leadership including the Chief Architect & Innovation Officer.',
+      duration: '6 weeks',
+      impact: 'Provided strategic insights that informed BMO\'s AI development roadmap',
+      technologies: ['AI Research', 'Data Analysis', 'Executive Presentations', 'Strategic Analysis']
+    },
+    {
+      title: 'News Brief Engagement Analytics',
+      description: 'Analyzed user engagement data from weekly news brief emails using heatmap technology to identify trending topics and visualized month-to-month engagement patterns to optimize content strategy and reader retention.',
       duration: '4 weeks',
-      impact: 'Strategic recommendations adopted by senior leadership',
-      technologies: ['Python', 'Machine Learning', 'Natural Language Processing']
-    },
-    {
-      title: 'Fintech Market Landscape',
-      description: 'Deep-dive analysis of emerging fintech companies and their potential impact on traditional banking models.',
-      duration: '3 weeks',
-      impact: 'Informed competitive intelligence strategy',
-      technologies: ['Market Research', 'Data Analysis', 'Competitive Intelligence']
-    },
-    {
-      title: 'Cloud Technology Assessment',
-      description: 'Evaluation of cloud computing trends and their implications for BMO&apos;s technology infrastructure strategy.',
-      duration: '2 weeks',
-      impact: 'Contributed to cloud migration planning',
-      technologies: ['Cloud Computing', 'AWS', 'Azure', 'Security Analysis']
+      impact: 'Improved content strategy resulting in higher reader engagement rates',
+      technologies: ['Data Visualization', 'Analytics', 'Heatmap Analysis', 'Content Optimization']
     }
   ];
 
