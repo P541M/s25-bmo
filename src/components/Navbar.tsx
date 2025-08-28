@@ -50,14 +50,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav 
-      className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 transform translate-z-0" 
+    <nav
+      className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 transform translate-z-0"
       style={{
-        transform: 'translateZ(0)', 
-        WebkitTransform: 'translateZ(0)',
-        backdropFilter: 'blur(8px)',
-        WebkitBackdropFilter: 'blur(8px)',
-        willChange: 'transform'
+        transform: "translateZ(0)",
+        WebkitTransform: "translateZ(0)",
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        willChange: "transform",
       }}
     >
       <div className="max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8 safe-area-inset-x">
@@ -140,7 +140,7 @@ const Navbar = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className={`block w-full text-left px-4 py-4 rounded-lg text-base font-medium transition-all duration-300 min-h-[48px] flex items-center focus:outline-none focus:ring-2 focus:ring-bmo-blue focus:ring-offset-2 ${
+                className={`flex w-full text-left px-4 py-4 rounded-lg text-base font-medium transition-all duration-300 min-h-[48px] items-center focus:outline-none focus:ring-2 focus:ring-bmo-blue focus:ring-offset-2 ${
                   activeSection === item.href.substring(1)
                     ? "text-bmo-blue bg-gray-50"
                     : "text-gray-600 hover:text-gray-900 hover:bg-gray-50 active:bg-gray-100"
