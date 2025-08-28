@@ -287,8 +287,18 @@ const Conclusion = () => {
               my academic journey and pursue opportunities at the intersection
               of technology and business innovation.
             </p>
-            <div className="inline-flex items-center px-4 py-2 bg-bmo-blue/10 text-bmo-blue rounded-full font-medium text-sm sm:text-base">
+            <div className="inline-flex items-center px-4 py-2 bg-bmo-blue/10 text-bmo-blue rounded-full font-medium text-sm sm:text-base mb-4">
               Ready for the Next Challenge
+            </div>
+            <div className="text-sm">
+              <a 
+                href="https://www.linkedin.com/posts/pevidena_bmo-internship-activity-7362230359742189568-LL9e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADj3VtwBhGW7VMlQLd8czaQqW_7Idb6PuZ8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-bmo-blue transition-colors duration-300"
+              >
+                → Read my LinkedIn post
+              </a>
             </div>
           </div>
         </div>
