@@ -225,7 +225,7 @@ const Goals = () => {
               <div
                 className={`transition-all duration-500 ease-in-out ${
                   expandedGoals[index]
-                    ? "max-h-screen opacity-100"
+                    ? "max-h-[2000px] opacity-100"
                     : "max-h-0 opacity-0 overflow-hidden"
                 }`}
               >
