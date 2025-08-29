@@ -53,12 +53,8 @@
 /* iOS Mobile Overscroll Prevention & Smooth Scrolling */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  width: 100%;
-  position: relative;
   /* Prevent horizontal overscroll on iOS */
   overscroll-behavior-x: none;
-  -webkit-overflow-scrolling: touch;
   touch-action: pan-y pinch-zoom;
 }
 
@@ -68,8 +64,6 @@ body {
   font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
-  width: 100%;
-  position: relative;
   /* iOS specific fixes */
   -webkit-overflow-scrolling: touch;
   overscroll-behavior-x: none;
@@ -306,3 +300,4 @@ body {
   overscroll-behavior-x: contain;
   touch-action: pan-x pan-y;
 }
+

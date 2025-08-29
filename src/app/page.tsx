@@ -10,7 +10,7 @@ import BMOLogo from '@/components/BMOLogo';
 
 export default function Home() {
   return (
-    <main className="min-h-screen pt-16 overflow-x-hidden w-full relative">
+    <main className="min-h-screen pt-16">
       <Navbar />
       <Hero />
       <Introduction />
