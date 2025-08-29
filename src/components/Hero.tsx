@@ -67,7 +67,14 @@ const Hero = () => {
         >
           {/* Mobile: Horizontal Scroll */}
           <div className="md:hidden mb-8 sm:mb-12">
-            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 px-1">
+            <div 
+              className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 px-1"
+              style={{
+                WebkitOverflowScrolling: 'touch',
+                overscrollBehaviorX: 'contain',
+                touchAction: 'pan-x pan-y'
+              }}
+            >
               <div className="bg-white border border-gray-200 rounded-xl p-4 text-center min-w-[200px] flex-shrink-0 snap-center">
                 <div className="text-2xl sm:text-3xl font-semibold text-bmo-blue mb-2">
                   16

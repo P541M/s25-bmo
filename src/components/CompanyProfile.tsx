@@ -163,7 +163,14 @@ const CompanyProfile = () => {
         >
           {/* Mobile: Horizontal Scroll */}
           <div className="lg:hidden mb-8 sm:mb-12">
-            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 px-1">
+            <div 
+              className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 px-1"
+              style={{
+                WebkitOverflowScrolling: 'touch',
+                overscrollBehaviorX: 'contain',
+                touchAction: 'pan-x pan-y'
+              }}
+            >
               {stats.map((stat, index) => (
                 <div
                   key={index}

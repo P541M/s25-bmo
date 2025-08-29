@@ -50,11 +50,17 @@
   }
 }
 
-/* Smooth Scrolling */
+/* iOS Mobile Overscroll Prevention & Smooth Scrolling */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  /* Prevent horizontal overscroll on iOS */
+  overscroll-behavior-x: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y pinch-zoom;
 }
-
 
 body {
   background: var(--background);
@@ -62,6 +68,23 @@ body {
   font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  /* iOS specific fixes */
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: none;
+  touch-action: pan-y pinch-zoom;
+}
+
+/* Additional iOS Safari fixes */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent horizontal scrolling on all elements */
+*, *::before, *::after {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Animations */
@@ -269,4 +292,17 @@ body {
 .fade-in-section.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* iOS-Specific Utility Classes */
+.ios-scroll-fix {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: none;
+  touch-action: pan-y pinch-zoom;
+}
+
+.horizontal-scroll-container {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  touch-action: pan-x pan-y;
 }
